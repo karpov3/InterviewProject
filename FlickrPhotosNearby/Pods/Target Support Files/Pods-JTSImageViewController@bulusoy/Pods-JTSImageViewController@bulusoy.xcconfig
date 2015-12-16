@@ -1,0 +1,1 @@
+PODS_JTSIMAGEVIEWCONTROLLER_BULUSOY_OTHER_LDFLAGS = -framework "Accelerate" -framework "ImageIO" -framework "UIKit"

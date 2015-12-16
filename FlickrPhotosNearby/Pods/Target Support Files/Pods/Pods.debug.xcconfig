@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FlickrKit" "${PODS_ROOT}/Headers/Public/JTSImageViewController@bulusoy" "${PODS_ROOT}/Headers/Public/UIImage-Resize"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FlickrKit" -isystem "${PODS_ROOT}/Headers/Public/JTSImageViewController@bulusoy" -isystem "${PODS_ROOT}/Headers/Public/UIImage-Resize"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-FlickrKit" -l"Pods-JTSImageViewController@bulusoy" -l"Pods-UIImage-Resize" -framework "Accelerate" -framework "ImageIO" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "AssetsLibrary"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

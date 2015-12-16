@@ -1,0 +1,16 @@
+PODS:
+  - FlickrKit (1.0.5)
+  - JTSImageViewController@bulusoy (1.5.1):
+    - UIImage-Resize (~> 1.0.1)
+  - UIImage-Resize (1.0.1)
+
+DEPENDENCIES:
+  - FlickrKit (~> 1.0.5)
+  - JTSImageViewController@bulusoy (~> 1.5.1)
+
+SPEC CHECKSUMS:
+  FlickrKit: fc0ed009c5cb69db4d82e68f7acb02002ebe1a42
+  JTSImageViewController@bulusoy: ec8959a0f5e2aff97178639b5885ed0c9311543e
+  UIImage-Resize: fa776860f10e6900bbaf53a73e494bdceaaccc77
+
+COCOAPODS: 0.37.2
